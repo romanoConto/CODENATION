@@ -9,3 +9,14 @@ C:\Projetos\Desenvolvimento\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\n
 C:\Projetos\Desenvolvimento\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.AssemblyInfo.cs
 C:\Projetos\Desenvolvimento\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.dll
 C:\Projetos\Desenvolvimento\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.pdb
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\bin\Debug\netcoreapp3.0\Desafio-01.exe
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\bin\Debug\netcoreapp3.0\Desafio-01.deps.json
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\bin\Debug\netcoreapp3.0\Desafio-01.runtimeconfig.json
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\bin\Debug\netcoreapp3.0\Desafio-01.runtimeconfig.dev.json
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\bin\Debug\netcoreapp3.0\Desafio-01.dll
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\bin\Debug\netcoreapp3.0\Desafio-01.pdb
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.csprojAssemblyReference.cache
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.AssemblyInfoInputs.cache
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.AssemblyInfo.cs
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.dll
+C:\Desenvolvimento\Pessoais\codenation-semana1\Desafio-01\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.pdb

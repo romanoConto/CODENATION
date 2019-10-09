@@ -7,39 +7,79 @@ namespace Desafio_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Fibonacci();
+            List<int> listFib350 = Fibonacci();
+
+            showFibonacciList(listFib350);
+
+            IsFibonacci(2);
         }
 
-        private static List<int> Fibonacci()
+        public static List<int> Fibonacci()
         {
             List<int> listFibonacci = new List<int>();
 
             int fib = 1;
-            int fibAnt= 0;
+            int fibAnt = 0;
 
             listFibonacci.Add(fibAnt);
-            Console.WriteLine(fibAnt);
             listFibonacci.Add(fib);
-            Console.WriteLine(fib); 
 
-            while (fib <= 350)
+            while (true)
             {
                 int soma = fib + fibAnt;
+
+                if (soma > 350)
+                    break;
 
                 fibAnt = fib;
 
                 fib = soma;
 
                 listFibonacci.Add(soma);
+            };
 
-                Console.WriteLine(soma);
-
-            } ;
-
-
-            return null;
+            return listFibonacci;
         }
 
+        private static void showFibonacciList(List<int> list)
+        {
+            string text = "";
+            int indice = 0;
+            bool isFirst = true;
+
+            foreach (int fib in list)
+            {
+                indice++;
+
+                text += fib;
+
+                if (indice < list.Count)
+                {
+                    text += ", ";
+                }
+            }
+
+            Console.WriteLine(text);
+        }
+
+        public static bool IsFibonacci(int numberToTest)
+        {
+            int fib = 1;
+            int fibAnt = 0;
+
+            for (int i = 0; i <= numberToTest; i++)
+            {
+                int soma = fib + fibAnt;
+
+                if (soma == numberToTest)
+                    return true;
+
+                fibAnt = fib;
+
+                fib = soma;
+            }
+
+            return false;
+        }
     }
 }
