@@ -19,7 +19,12 @@ namespace Desafio_01
             IsFibonacci(2);
 
             string v = Crypt("a1b2c3d4e5f6g7h8i9j0");
-            v.Equals("d1e2f3g4h5i6j7k8l9m0");
+            
+            Console.WriteLine(v.Equals("d1e2f3g4h5i6j7k8l9m0").ToString());
+
+            string u = Decrypt("a1b2c3d4e5f6g7h8i9j0");
+
+            Console.WriteLine(u);
         }
 
         public static List<int> Fibonacci()
@@ -93,6 +98,8 @@ namespace Desafio_01
 
         public static string Crypt(string message)
         {
+            int count = 3;
+
             if (message == null)
                 throw new ArgumentNullException();
 
@@ -101,11 +108,11 @@ namespace Desafio_01
 
             message = message.ToLower();
 
-            char[] chars = message.ToCharArray();
+            char[] charsMsg = message.ToCharArray();
 
-            for (int i = 0; i < chars.Length; i++)
+            for (int i = 0; i < charsMsg.Length; i++)
             {
-                char c = chars[i];
+                char c = charsMsg[i];
 
                 if (!(char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)))
                 {
@@ -113,16 +120,14 @@ namespace Desafio_01
                 }
                 else if (char.IsLetter(c))
                 {
-                    for (int j = 0; j < 3; j++)
-                    {
-                        c++;
-                    }
 
-                    chars[i] = c;
+                    charsMsg[i] = (char)((charsMsg[i] - 'a' + 26 - count) % 26 + 'a');
+
+                    charsMsg[i] = c;
                 }
             }
 
-            return new string(chars);
+            return new string(charsMsg);
         }
 
         public static string Decrypt(string cryptedMessage)

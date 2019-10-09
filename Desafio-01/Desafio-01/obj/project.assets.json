@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\manod\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\romano.conto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenvolvimento\\Pessoais\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
+      "projectUniqueName": "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
       "projectName": "Desafio-01",
-      "projectPath": "C:\\Desenvolvimento\\Pessoais\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
-      "packagesPath": "C:\\Users\\manod\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenvolvimento\\Pessoais\\codenation-semana1\\Desafio-01\\Desafio-01\\obj\\",
+      "projectPath": "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
+      "packagesPath": "C:\\Users\\romano.conto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\manod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\romano.conto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
