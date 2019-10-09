@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace Desafio_01
 {
@@ -11,7 +12,14 @@ namespace Desafio_01
 
             showFibonacciList(listFib350);
 
+            String a = "á";
+            char[] asa = a.ToCharArray();
+            char.IsLetterOrDigit(asa[0]);
+
             IsFibonacci(2);
+
+            string v = Crypt("a1b2c3d4e5f6g7h8i9j0");
+            v.Equals("d1e2f3g4h5i6j7k8l9m0");
         }
 
         public static List<int> Fibonacci()
@@ -80,6 +88,80 @@ namespace Desafio_01
             }
 
             return false;
+        }
+
+
+        public static string Crypt(string message)
+        {
+            if (message == null)
+                throw new ArgumentNullException();
+
+            if (message.Equals(""))
+                return "";
+
+            message = message.ToLower();
+
+            char[] chars = message.ToCharArray();
+
+            for (int i = 0; i < chars.Length; i++)
+            {
+                char c = chars[i];
+
+                if (!(char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)))
+                {
+                    throw new ArgumentOutOfRangeException();
+                }
+                else if (char.IsLetter(c))
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        c++;
+                    }
+
+                    chars[i] = c;
+                }
+            }
+
+            return new string(chars);
+        }
+
+        public static string Decrypt(string cryptedMessage)
+        {
+            if (cryptedMessage == null)
+                throw new ArgumentNullException();
+
+            if (cryptedMessage.Equals(""))
+                return "";
+
+            char[] chars = cryptedMessage.ToCharArray();
+
+            cryptedMessage = cryptedMessage.ToLower();
+
+            for (int i = 0; i < chars.Length; i++)
+            {
+                char c = chars[i];
+
+                if (!(char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)))
+                {
+                    throw new ArgumentOutOfRangeException();
+                }
+                else if (char.IsLetter(c))
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        c--;
+                    }
+
+                    chars[i] = c;
+                }
+            }
+
+
+            string retorno = new string(chars);
+
+            retorno = retorno.ToLower();
+
+            return retorno;
         }
     }
 }
