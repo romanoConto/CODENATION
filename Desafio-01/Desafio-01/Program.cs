@@ -98,7 +98,7 @@ namespace Desafio_01
 
         public static string Crypt(string message)
         {
-            int count = 3;
+            int count = 2;
 
             if (message == null)
                 throw new ArgumentNullException();
@@ -120,10 +120,7 @@ namespace Desafio_01
                 }
                 else if (char.IsLetter(c))
                 {
-
-                    charsMsg[i] = (char)((charsMsg[i] - 'a' + 26 - count) % 26 + 'a');
-
-                    charsMsg[i] = c;
+                    charsMsg[i] = SumCharLetter(c, count);
                 }
             }
 
@@ -132,19 +129,21 @@ namespace Desafio_01
 
         public static string Decrypt(string cryptedMessage)
         {
+            int count = -3;
+
             if (cryptedMessage == null)
                 throw new ArgumentNullException();
 
             if (cryptedMessage.Equals(""))
                 return "";
 
-            char[] chars = cryptedMessage.ToCharArray();
+            char[] charsCrypted = cryptedMessage.ToCharArray();
 
             cryptedMessage = cryptedMessage.ToLower();
 
-            for (int i = 0; i < chars.Length; i++)
+            for (int i = 0; i < charsCrypted.Length; i++)
             {
-                char c = chars[i];
+                char c = charsCrypted[i];
 
                 if (!(char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)))
                 {
@@ -152,21 +151,20 @@ namespace Desafio_01
                 }
                 else if (char.IsLetter(c))
                 {
-                    for (int j = 0; j < 3; j++)
-                    {
-                        c--;
-                    }
-
-                    chars[i] = c;
+                    charsCrypted[i] = SumCharLetter(c, count);
                 }
             }
 
-
-            string retorno = new string(chars);
+            string retorno = new string(charsCrypted);
 
             retorno = retorno.ToLower();
 
             return retorno;
+        }
+
+        private static char SumCharLetter(char c, int count)
+        {
+            return (char)((c - 'a' + 26 - count) % 26 + 'a');
         }
     }
 }
