@@ -19,7 +19,7 @@ namespace Desafio_01
             IsFibonacci(2);
 
             string v = Crypt("a1b2c3d4e5f6g7h8i9j0");
-            
+
             Console.WriteLine(v.Equals("d1e2f3g4h5i6j7k8l9m0").ToString());
 
             string u = Decrypt("a1b2c3d4e5f6g7h8i9j0");
@@ -98,13 +98,18 @@ namespace Desafio_01
 
         public static string Crypt(string message)
         {
-            int count = 2;
+            int count = 3;
 
             if (message == null)
                 throw new ArgumentNullException();
 
             if (message.Equals(""))
                 return "";
+
+
+            if (!new Regex("^[a-zA-Z0-9 ]*$").IsMatch(message))
+                throw new ArgumentOutOfRangeException();
+
 
             message = message.ToLower();
 
@@ -114,11 +119,7 @@ namespace Desafio_01
             {
                 char c = charsMsg[i];
 
-                if (!(char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)))
-                {
-                    throw new ArgumentOutOfRangeException();
-                }
-                else if (char.IsLetter(c))
+                if (char.IsLetter(c))
                 {
                     charsMsg[i] = SumCharLetter(c, count);
                 }
@@ -137,6 +138,10 @@ namespace Desafio_01
             if (cryptedMessage.Equals(""))
                 return "";
 
+            if (!new Regex("^[a-zA-Z0-9 ]*$").IsMatch(cryptedMessage))
+                throw new ArgumentOutOfRangeException();
+
+
             char[] charsCrypted = cryptedMessage.ToCharArray();
 
             cryptedMessage = cryptedMessage.ToLower();
@@ -144,12 +149,8 @@ namespace Desafio_01
             for (int i = 0; i < charsCrypted.Length; i++)
             {
                 char c = charsCrypted[i];
-
-                if (!(char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)))
-                {
-                    throw new ArgumentOutOfRangeException();
-                }
-                else if (char.IsLetter(c))
+                
+                if (char.IsLetter(c))
                 {
                     charsCrypted[i] = SumCharLetter(c, count);
                 }
@@ -164,7 +165,7 @@ namespace Desafio_01
 
         private static char SumCharLetter(char c, int count)
         {
-            return (char)((c - 'a' + 26 - count) % 26 + 'a');
+            return (char)((c - 'a' + 26 + count) % 26 + 'a');
         }
     }
 }

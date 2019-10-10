@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj": {}
+    "C:\\Desenvolvimento\\Pessoais\\codenation\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj": {
+    "C:\\Desenvolvimento\\Pessoais\\codenation\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\Pessoais\\codenation\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
         "projectName": "Desafio-01",
-        "projectPath": "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
-        "packagesPath": "C:\\Users\\romano.conto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romano.conto\\Google Drive\\Projetos\\Desenvolvimento\\codenation-semana1\\Desafio-01\\Desafio-01\\obj\\",
+        "projectPath": "C:\\Desenvolvimento\\Pessoais\\codenation\\codenation-semana1\\Desafio-01\\Desafio-01\\Desafio-01.csproj",
+        "packagesPath": "C:\\Users\\manod\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\Pessoais\\codenation\\codenation-semana1\\Desafio-01\\Desafio-01\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\romano.conto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manod\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
