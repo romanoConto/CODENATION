@@ -1,0 +1,13 @@
+C:\Projects\ProjectCDN\modulo2\bin\Debug\netcoreapp3.0\Modulo2.exe
+C:\Projects\ProjectCDN\modulo2\bin\Debug\netcoreapp3.0\Modulo2.deps.json
+C:\Projects\ProjectCDN\modulo2\bin\Debug\netcoreapp3.0\Modulo2.runtimeconfig.json
+C:\Projects\ProjectCDN\modulo2\bin\Debug\netcoreapp3.0\Modulo2.runtimeconfig.dev.json
+C:\Projects\ProjectCDN\modulo2\bin\Debug\netcoreapp3.0\Modulo2.dll
+C:\Projects\ProjectCDN\modulo2\bin\Debug\netcoreapp3.0\Modulo2.pdb
+C:\Projects\ProjectCDN\modulo2\obj\Debug\netcoreapp3.0\Modulo2.csprojAssemblyReference.cache
+C:\Projects\ProjectCDN\modulo2\obj\Debug\netcoreapp3.0\Modulo2.AssemblyInfoInputs.cache
+C:\Projects\ProjectCDN\modulo2\obj\Debug\netcoreapp3.0\Modulo2.AssemblyInfo.cs
+C:\Projects\ProjectCDN\modulo2\obj\Debug\netcoreapp3.0\Modulo2.dll
+C:\Projects\ProjectCDN\modulo2\obj\Debug\netcoreapp3.0\Modulo2.pdb
+C:\Projects\ProjectCDN\modulo2\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Projects\ProjectCDN\modulo2\obj\Debug\netcoreapp3.0\Modulo2.csproj.CopyComplete
