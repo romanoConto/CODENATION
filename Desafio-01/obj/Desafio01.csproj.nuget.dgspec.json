@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio-01\\Desafio01.csproj": {}
+    "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio-01\\Desafio01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio-01\\Desafio01.csproj": {
+    "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio-01\\Desafio01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio-01\\Desafio01.csproj",
+        "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio-01\\Desafio01.csproj",
         "projectName": "Desafio01",
-        "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio-01\\Desafio01.csproj",
+        "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio-01\\Desafio01.csproj",
         "packagesPath": "C:\\Users\\Romano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio-01\\obj\\",
+        "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio-01\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Romano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

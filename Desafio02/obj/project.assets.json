@@ -8,17 +8,21 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Romano\\.nuget\\packages\\": {}
+    "C:\\Users\\Romano\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio02\\Desafio02.csproj",
+      "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio02\\Desafio02.csproj",
       "projectName": "Desafio02",
-      "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio02\\Desafio02.csproj",
+      "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio02\\Desafio02.csproj",
       "packagesPath": "C:\\Users\\Romano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\ProjectCDN\\Desafio02\\obj\\",
+      "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\Desafio02\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Romano\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
