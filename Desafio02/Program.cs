@@ -7,6 +7,8 @@ namespace Desafio02
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            long l;
+            l = 0;
         }
     }
 }

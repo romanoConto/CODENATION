@@ -75,7 +75,7 @@ namespace Codenation.Challenge
             SafeHasTeam(teamId);
 
             Player bestPlayer = GetPlayersOfTeam(teamId)
-                .OrderBy(p => p.SkillLevel)
+                .OrderByDescending(p => p.SkillLevel)
                 .FirstOrDefault();
 
             return bestPlayer.Id;
@@ -99,8 +99,10 @@ namespace Codenation.Challenge
 
         public long GetHigherSalaryPlayer(long teamId)
         {
+            SafeHasTeam(teamId);
+
             Player bestPlayer = GetPlayersOfTeam(teamId)
-                .OrderBy(p => p.BirthDate)
+                .OrderByDescending(p => p.Salary)
                 .FirstOrDefault();
 
             return bestPlayer.Id;
@@ -153,14 +155,24 @@ namespace Codenation.Challenge
 
         private List<Player> GetPlayersOfTeam(long teamId)
         {
-            return players.OrderBy(p => p.Id).Where(p => p.TeamId == teamId).ToList();
+            return players.Where(p => p.TeamId == teamId).OrderBy(p => p.Id).ToList();
+
+            List<Player> playerss = new List<Player>();
+
+            foreach(var p in players)
+            {
+                if(p.TeamId == teamId)
+                {
+                    players.Add(p);
+                }
+            }
         }
 
         private long GetCaptain(Team team)
         {
             long captain = team.Captain;
 
-            if (captain == null)
+            if (captain == 0)
                 throw new CaptainNotFoundException();
 
             return captain;
