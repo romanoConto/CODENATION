@@ -1,0 +1,10 @@
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\bin\Debug\netcoreapp2.2\Modulo3.deps.json
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\bin\Debug\netcoreapp2.2\Modulo3.runtimeconfig.json
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\bin\Debug\netcoreapp2.2\Modulo3.runtimeconfig.dev.json
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\bin\Debug\netcoreapp2.2\Modulo3.dll
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\bin\Debug\netcoreapp2.2\Modulo3.pdb
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\obj\Debug\netcoreapp2.2\Modulo3.csprojAssemblyReference.cache
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\obj\Debug\netcoreapp2.2\Modulo3.AssemblyInfoInputs.cache
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\obj\Debug\netcoreapp2.2\Modulo3.AssemblyInfo.cs
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\obj\Debug\netcoreapp2.2\Modulo3.dll
+C:\Users\Romano\Downloads\ProjectCD\Modulo1\obj\Debug\netcoreapp2.2\Modulo3.pdb
