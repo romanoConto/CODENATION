@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\Desafio02.csproj",
-      "projectName": "Desafio02",
-      "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\Desafio02.csproj",
+      "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Modulo3\\Modulo3.csproj",
+      "projectName": "Modulo3",
+      "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Modulo3\\Modulo3.csproj",
       "packagesPath": "C:\\Users\\Romano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\obj\\",
+      "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Modulo3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

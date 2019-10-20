@@ -38,6 +38,8 @@ namespace Codenation.Challenge
             Team team = GetTeam(player.TeamId);
 
             team.Captain = playerId;
+
+            long cap = GetTeamCaptain(1232);
         }
 
         public long GetTeamCaptain(long teamId)
