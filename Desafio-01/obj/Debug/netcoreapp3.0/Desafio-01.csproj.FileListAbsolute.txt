@@ -1,3 +1,0 @@
-C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION\ProjectCDN\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.csprojAssemblyReference.cache
-C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION\ProjectCDN\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.AssemblyInfoInputs.cache
-C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION\ProjectCDN\Desafio-01\obj\Debug\netcoreapp3.0\Desafio-01.AssemblyInfo.cs

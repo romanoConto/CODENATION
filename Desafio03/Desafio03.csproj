@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="csharp4\**" />
+    <Compile Remove="csharp6\**" />
+    <EmbeddedResource Remove="csharp4\**" />
+    <EmbeddedResource Remove="csharp6\**" />
+    <None Remove="csharp4\**" />
+    <None Remove="csharp6\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>
