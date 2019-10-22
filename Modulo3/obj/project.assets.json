@@ -864,23 +864,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\manod\\.nuget\\packages\\": {},
+    "C:\\Users\\Romano\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Modulo3\\Modulo3.csproj",
+      "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Modulo3\\Modulo3.csproj",
       "projectName": "Modulo3",
-      "projectPath": "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Modulo3\\Modulo3.csproj",
-      "packagesPath": "C:\\Users\\manod\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Modulo3\\obj\\",
+      "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Modulo3\\Modulo3.csproj",
+      "packagesPath": "C:\\Users\\Romano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Modulo3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\manod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Romano\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

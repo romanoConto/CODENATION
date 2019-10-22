@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Linq;
-using Desafio03.csharp_4.Source;
 using System.Reflection;
 
 namespace Codenation.Challenge
@@ -17,7 +16,9 @@ namespace Codenation.Challenge
 
         public Encoding CSVEncoding { get; set; } = Encoding.UTF8;
 
-        private static List<Player> data = new List<Player>();
+        private static List<Dictionary<string, object>> data = new List<Dictionary<string, object>>();
+
+        string[] header;
 
         public FIFACupStats()
         {
@@ -31,22 +32,22 @@ namespace Codenation.Challenge
 
                 while ((line = reader.ReadLine()) != null)
                 {
+                    Dictionary<string, object> dado = new Dictionary<string, object>();
                     object[] registry = line.Split(",");
-
-                    Player player = new Player();
 
                     for(int i = 0; i < registry.Length; i++)
                     {
-                        player.AddProperty(player, header[i], registry[i]);
+                        dado.Add(header[i], registry[i]);
                     }
 
-                    data.Add(player);
+                    data.Add(dado);
                 }
             }
         }
 
         public int NationalityDistinctCount()
         {
+            data.Where(i => i.Keys.Equals(header.g))
             return 0;
         }
 

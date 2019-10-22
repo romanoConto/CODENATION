@@ -13,6 +13,8 @@ namespace Desafio03
             Console.WriteLine("Hello World!");
 
             FIFACupStats f = new FIFACupStats();
+
+            f.NationalityDistinctCount();
         }
 
     }
