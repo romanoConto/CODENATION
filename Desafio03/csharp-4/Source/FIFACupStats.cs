@@ -35,7 +35,7 @@ namespace Codenation.Challenge
                     Dictionary<string, object> dado = new Dictionary<string, object>();
                     object[] registry = line.Split(",");
 
-                    for(int i = 0; i < registry.Length; i++)
+                    for (int i = 0; i < registry.Length; i++)
                     {
                         dado.Add(header[i], registry[i]);
                     }
@@ -47,33 +47,46 @@ namespace Codenation.Challenge
 
         public int NationalityDistinctCount()
         {
-            data.Where(i => i.Keys.Equals(header.g))
-            return 0;
+            return data.Select(i => i.Where(j => j.Key.Equals("nationality") && !j.Value.Equals(""))
+           .Select(k => k.Value).FirstOrDefault())
+                .Distinct().Count();
         }
 
         public int ClubDistinctCount()
         {
-            throw new NotImplementedException();
+            return data.Select(i => i.Where(j => j.Key.Equals("club") && !j.Value.Equals(""))
+           .Select(k => k.Value).FirstOrDefault())
+                .Distinct().Count();
         }
 
         public List<string> First20Players()
         {
-            throw new NotImplementedException();
+            return GetFullName(data.GetRange(0, 20));
         }
 
         public List<string> Top10PlayersByReleaseClause()
         {
-            throw new NotImplementedException();
+            return GetFullName(data.OrderByDescending(dict => dict.ContainsKey("eur_release_clause")).ToList().GetRange(0, 10));
         }
 
         public List<string> Top10PlayersByAge()
         {
-            throw new NotImplementedException();
+            return GetFullName(data.OrderByDescending(i => i.ContainsKey("birth_date"))
+                .ThenByDescending(i => i.ContainsKey("eur_wage")).ToList().GetRange(0, 10));
         }
 
         public Dictionary<int, int> AgeCountMap()
         {
-            throw new NotImplementedException();
+            return data.GroupBy(i => i.Where(j => j.Key.Equals("age"))
+            .Select(k => k.Value).FirstOrDefault())
+                .ToDictionary(d => int.Parse(d.Key.ToString()), d => d.Count());
         }
+
+        private List<string> GetFullName(List<Dictionary<string, object>> list)
+        {
+            return list.Select(i => i.Where(j => j.Key.Equals("full_name"))
+           .Select(k => k.Value.ToString()).FirstOrDefault()).ToList();
+        }
+
     }
 }

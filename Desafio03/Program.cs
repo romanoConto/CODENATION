@@ -14,7 +14,12 @@ namespace Desafio03
 
             FIFACupStats f = new FIFACupStats();
 
-            f.NationalityDistinctCount();
+            int nationality = f.NationalityDistinctCount();
+            int club = f.ClubDistinctCount();
+            List<string> players = f.First20Players();
+            List<string> playersAge = f.Top10PlayersByAge();
+            List<string> playersRelease = f.Top10PlayersByReleaseClause();
+            Dictionary<int, int> ageCount = f.AgeCountMap();
         }
 
     }
