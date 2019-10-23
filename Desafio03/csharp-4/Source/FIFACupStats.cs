@@ -7,18 +7,15 @@ using System.Reflection;
 
 namespace Codenation.Challenge
 {
-
     public class FIFACupStats
     {
-
-
         public string CSVFilePath { get; set; } = "data.csv";
 
         public Encoding CSVEncoding { get; set; } = Encoding.UTF8;
 
         private static List<Dictionary<string, object>> data = new List<Dictionary<string, object>>();
 
-        string[] header;
+        private readonly string[] header;
 
         public FIFACupStats()
         {
@@ -26,14 +23,14 @@ namespace Codenation.Challenge
             using (StreamReader reader = new StreamReader(CSVFilePath))
             {
                 string firsLine = reader.ReadLine();
-                string[] header = firsLine.Split(",");
+                string[] header = firsLine.Split(',');
 
                 string line = "";
 
                 while ((line = reader.ReadLine()) != null)
                 {
                     Dictionary<string, object> dado = new Dictionary<string, object>();
-                    object[] registry = line.Split(",");
+                    object[] registry = line.Split(',');
 
                     for (int i = 0; i < registry.Length; i++)
                     {
@@ -66,19 +63,25 @@ namespace Codenation.Challenge
 
         public List<string> Top10PlayersByReleaseClause()
         {
-            return GetFullName(data.OrderByDescending(dict => dict.ContainsKey("eur_release_clause")).ToList().GetRange(0, 10));
+            return GetFullName(data.OrderByDescending(i => i.Where(j => j.Key.Equals("eur_release_clause"))
+            .Select(k => k.Value).FirstOrDefault())
+                .Distinct().ToList().GetRange(0, 10));
         }
 
         public List<string> Top10PlayersByAge()
         {
-            return GetFullName(data.OrderByDescending(i => i.ContainsKey("birth_date"))
-                .ThenByDescending(i => i.ContainsKey("eur_wage")).ToList().GetRange(0, 10));
+            return GetFullName(data.OrderByDescending((i => i.Where(j => j.Key.Equals("birth_date"))
+            .Select(k => k.Value).FirstOrDefault()))
+                .ThenByDescending(i => i.Where(j => j.Key.Equals("eur_wage"))
+                .Select(k => k.Value).FirstOrDefault())
+                .Distinct().ToList().GetRange(0, 10));
         }
 
         public Dictionary<int, int> AgeCountMap()
         {
-            return data.GroupBy(i => i.Where(j => j.Key.Equals("age"))
-            .Select(k => k.Value).FirstOrDefault())
+            return data.OrderBy(i => i.Where(j => j.Key.Equals("age")).Select(k => k.Value).FirstOrDefault()).Distinct()
+                .GroupBy(i => i.Where(j => j.Key.Equals("age"))
+                .Select(k => k.Value).FirstOrDefault())
                 .ToDictionary(d => int.Parse(d.Key.ToString()), d => d.Count());
         }
 
