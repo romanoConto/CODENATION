@@ -31,3 +31,7 @@
 
   # vs code
   .vscode/
+  .vs/ProjectCDN
+  .vs/
+  .vs
+  .vs/ProjectCDN/v16/Server/sqlite3
