@@ -45,35 +45,35 @@ namespace Codenation.Challenge
         public int NationalityDistinctCount()
         {
             return data.Select(i => i.Where(j => j.Key.Equals("nationality") && !j.Value.Equals(""))
-           .Select(k => k.Value).FirstOrDefault())
-                .Distinct().Count();
+            .Select(k => k.Value).FirstOrDefault()).Distinct().Count();
         }
 
         public int ClubDistinctCount()
         {
-            var a = data.Select(i => i.Where(j => 
-            j.Key.Equals("club") && j.Value != null && !j.Value.Equals(""))
-            .Select(k => k.Value).FirstOrDefault()).ToList()
-            .Distinct().Where(x => x != null);
+            var clubs = data.Select(i => i.Where(j => j.Key.Equals("club") && j.Value != null && !j.Value.Equals(""))
+            .Select(k => k.Value).FirstOrDefault()).ToList();
 
-            return a.Count();
+            return clubs.Distinct().Where(x => x != null).Count();
         }
 
         public List<string> First20Players()
         {
-            return GetFullName(data.GetRange(0, 20));
+            return GetFullName(data).Distinct().ToList().GetRange(0, 20);
         }
 
         public List<string> Top10PlayersByReleaseClause()
         {
+            decimal outAux;
+
             return GetFullName(data.OrderByDescending(i => i.Where(j => j.Key.Equals("eur_release_clause"))
-            .Select(k => k.Value).FirstOrDefault())
-                .Distinct().ToList().GetRange(0, 10));
+                .Select(k => decimal.TryParse(k.Value.ToString().Replace(".", ","), out outAux) ? outAux : (decimal?)0).FirstOrDefault())
+                .ToList())
+                .Distinct().ToList().GetRange(0, 10);
         }
 
         public List<string> Top10PlayersByAge()
         {
-            return GetFullName(data.OrderByDescending((i => i.Where(j => j.Key.Equals("birth_date"))
+            return GetFullName(data.OrderBy((i => i.Where(j => j.Key.Equals("birth_date"))
             .Select(k => k.Value).FirstOrDefault()))
                 .ThenByDescending(i => i.Where(j => j.Key.Equals("eur_wage"))
                 .Select(k => k.Value).FirstOrDefault())
@@ -93,6 +93,5 @@ namespace Codenation.Challenge
             return list.Select(i => i.Where(j => j.Key.Equals("full_name"))
            .Select(k => k.Value.ToString()).FirstOrDefault()).ToList();
         }
-
     }
 }
