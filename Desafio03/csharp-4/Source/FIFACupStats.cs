@@ -51,9 +51,12 @@ namespace Codenation.Challenge
 
         public int ClubDistinctCount()
         {
-            return data.Select(i => i.Where(j => j.Key.Equals("club") && !j.Value.Equals(""))
-           .Select(k => k.Value).FirstOrDefault())
-                .Distinct().Count();
+            var a = data.Select(i => i.Where(j => 
+            j.Key.Equals("club") && j.Value != null && !j.Value.Equals(""))
+            .Select(k => k.Value).FirstOrDefault()).ToList()
+            .Distinct().Where(x => x != null);
+
+            return a.Count();
         }
 
         public List<string> First20Players()
@@ -82,7 +85,7 @@ namespace Codenation.Challenge
             return data.OrderBy(i => i.Where(j => j.Key.Equals("age")).Select(k => k.Value).FirstOrDefault()).Distinct()
                 .GroupBy(i => i.Where(j => j.Key.Equals("age"))
                 .Select(k => k.Value).FirstOrDefault())
-                .ToDictionary(d => int.Parse(d.Key.ToString()), d => d.Count());
+                .ToDictionary(d => int.Parse(d.Key.ToString()), d => d.Count() / 6);
         }
 
         private List<string> GetFullName(List<Dictionary<string, object>> list)
