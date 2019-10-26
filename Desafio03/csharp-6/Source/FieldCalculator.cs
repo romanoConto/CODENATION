@@ -1,31 +1,30 @@
 using System.Reflection;
+using System.Linq;
 
 namespace Codenation.Challenge
 {
     public class FieldCalculator : ICalculateField
     {
+        //Implementado com lambda (Linq)
         public decimal Addition(object obj)
         {
             decimal value = new decimal(0);
 
             var type = obj.GetType();
 
-            foreach (var field in type.GetTypeInfo().DeclaredFields)
+            var fields = type.GetTypeInfo().DeclaredFields;
+
+            var fielsAdd = fields.Where(f => f.FieldType == typeof(decimal) && f.GetCustomAttributes(typeof(AddAttribute), false).Length > 0);
+
+            foreach (var field in fielsAdd)
             {
-                if (!field.FieldType.Name.Equals("Decimal"))
-                    continue;
-
-                var atribute = field.GetCustomAttributes(typeof(AddAttribute), false);
-
-                if (atribute != null && atribute.Length > 0)
-                {
-                    value += (decimal)field.GetValue(obj);
-                }
+                value += (decimal)field.GetValue(obj);
             }
 
             return value;
         }
 
+        //Implementado com for  
         public decimal Subtraction(object obj)
         {
             decimal value = new decimal(0);
@@ -34,7 +33,7 @@ namespace Codenation.Challenge
 
             foreach (var field in type.GetTypeInfo().DeclaredFields)
             {
-                if (!field.FieldType.Name.Equals("Decimal"))
+                if (!(field.FieldType == typeof(decimal)))
                     continue;
 
                 var atribute = field.GetCustomAttributes(typeof(SubtractAttribute), false);

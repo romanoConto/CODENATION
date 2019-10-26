@@ -1,0 +1,11 @@
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\bin\Debug\netcoreapp2.0\Desafio03.deps.json
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\bin\Debug\netcoreapp2.0\Desafio03.runtimeconfig.json
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\bin\Debug\netcoreapp2.0\Desafio03.runtimeconfig.dev.json
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\bin\Debug\netcoreapp2.0\Desafio03.dll
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\bin\Debug\netcoreapp2.0\Desafio03.pdb
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\obj\Debug\netcoreapp2.0\Desafio03.csprojAssemblyReference.cache
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\obj\Debug\netcoreapp2.0\Desafio03.AssemblyInfoInputs.cache
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\obj\Debug\netcoreapp2.0\Desafio03.AssemblyInfo.cs
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\obj\Debug\netcoreapp2.0\Desafio03.dll
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\obj\Debug\netcoreapp2.0\Desafio03.pdb
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Desafio03\bin\Debug\netcoreapp2.0\csharp-4\Source\data.csv

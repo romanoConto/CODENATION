@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -9,7 +9,7 @@ namespace Codenation.Challenge
 {
     public class FIFACupStats
     {
-        public string CSVFilePath { get; set; } = "data.csv";
+        public string CSVFilePath { get; set; } = @"C:\Users\Romano\Desktop\data.csv";
 
         public Encoding CSVEncoding { get; set; } = Encoding.UTF8;
 
@@ -19,7 +19,6 @@ namespace Codenation.Challenge
 
         public FIFACupStats()
         {
-
             using (StreamReader reader = new StreamReader(CSVFilePath))
             {
                 string firsLine = reader.ReadLine();
@@ -34,6 +33,7 @@ namespace Codenation.Challenge
 
                     for (int i = 0; i < registry.Length; i++)
                     {
+
                         dado.Add(header[i], registry[i]);
                     }
 
@@ -85,7 +85,7 @@ namespace Codenation.Challenge
             return data.OrderBy(i => i.Where(j => j.Key.Equals("age")).Select(k => k.Value).FirstOrDefault()).Distinct()
                 .GroupBy(i => i.Where(j => j.Key.Equals("age"))
                 .Select(k => k.Value).FirstOrDefault())
-                .ToDictionary(d => int.Parse(d.Key.ToString()), d => d.Count() / 6);
+                .ToDictionary(d => int.Parse(d.Key.ToString()), d => d.Count());
         }
 
         private List<string> GetFullName(List<Dictionary<string, object>> list)

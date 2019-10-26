@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\Desafio02.csproj": {}
+    "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Desafio02\\Desafio02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\Desafio02.csproj": {
+    "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Desafio02\\Desafio02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\Desafio02.csproj",
+        "projectUniqueName": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Desafio02\\Desafio02.csproj",
         "projectName": "Desafio02",
-        "projectPath": "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\Desafio02.csproj",
-        "packagesPath": "C:\\Users\\manod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manod\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION\\CODENATION\\Desafio02\\obj\\",
+        "projectPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Desafio02\\Desafio02.csproj",
+        "packagesPath": "C:\\Users\\Romano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romano\\Google Drive\\Projetos\\Desenvolvimento\\CODENATION2\\CODENATION\\Desafio02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\manod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Romano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
