@@ -10,28 +10,26 @@ namespace Codenation.Challenge.Models
     [Table("submission")]
     public class Submission
     {
-        [Key]
         [Required]
         [Column("user_id")]
         public int UserId { get; set; }
 
         [ForeignKey("UserId")]
-        public virtual ICollection<User> Users { get; set; }
+        public virtual User Users { get; set; }
 
-        [Key]
         [Required]
-        [Column("chalenge_id")]
-        public int ChalengeId { get; set; }
+        [Column("challenge_id")]
+        public int ChallengeId { get; set; }
 
-        [ForeignKey("ChalengeId")]
-        public virtual ICollection<Challenge> Challenges { get; set; }
+        [ForeignKey("ChallengeId")]
+        public virtual Challenge Challenge { get; set; }
 
         [Required]
         [Column("score", TypeName = "decimal(9,2)")]
         public decimal Score { get; set; }
 
         [Required]
-        [Column("created_at")]
-        public DateTime CreatedAt { get; set; }
+        [Column("create_at")]
+        public DateTime CreateAt { get; set; }
     }
 }

@@ -35,9 +35,9 @@ namespace Codenation.Challenge.Models
         [Required]
         public int Status { get; set; }
 
-        [Column("created_at")]
+        [Column("create_at")]
         [Required]
-        public DateTime CratedAt { get; set; }
+        public DateTime CrateAt { get; set; }
 
     }
 }
