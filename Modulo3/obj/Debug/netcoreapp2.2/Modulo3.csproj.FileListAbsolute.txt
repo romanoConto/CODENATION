@@ -18,3 +18,13 @@ C:\Users\manod\Google Drive\Projetos\Desenvolvimento\CODENATION\CODENATION\Modul
 C:\Users\manod\Google Drive\Projetos\Desenvolvimento\CODENATION\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.AssemblyInfo.cs
 C:\Users\manod\Google Drive\Projetos\Desenvolvimento\CODENATION\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.dll
 C:\Users\manod\Google Drive\Projetos\Desenvolvimento\CODENATION\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.pdb
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\bin\Debug\netcoreapp2.2\Modulo3.deps.json
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\bin\Debug\netcoreapp2.2\Modulo3.runtimeconfig.json
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\bin\Debug\netcoreapp2.2\Modulo3.runtimeconfig.dev.json
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\bin\Debug\netcoreapp2.2\Modulo3.dll
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\bin\Debug\netcoreapp2.2\Modulo3.pdb
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.csprojAssemblyReference.cache
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.AssemblyInfoInputs.cache
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.AssemblyInfo.cs
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.dll
+C:\Users\Romano\Google Drive\Projetos\Desenvolvimento\CODENATION2\CODENATION\Modulo3\obj\Debug\netcoreapp2.2\Modulo3.pdb
