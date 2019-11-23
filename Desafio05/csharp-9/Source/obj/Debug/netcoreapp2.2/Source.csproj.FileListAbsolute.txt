@@ -1,0 +1,32 @@
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\Source.deps.json
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\Source.runtimeconfig.json
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\Source.runtimeconfig.dev.json
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\Source.dll
+C:\Users\Romano\codenation\csharp-9\Source\bin\Debug\netcoreapp2.2\Source.pdb
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.csprojAssemblyReference.cache
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.RazorAssemblyInfo.cache
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.RazorAssemblyInfo.cs
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.AssemblyInfoInputs.cache
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.AssemblyInfo.cs
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.RazorTargetAssemblyInfo.cache
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.dll
+C:\Users\Romano\codenation\csharp-9\Source\obj\Debug\netcoreapp2.2\Source.pdb
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\Source.deps.json
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\Source.runtimeconfig.json
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\Source.runtimeconfig.dev.json
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\Source.dll
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\bin\Debug\netcoreapp2.2\Source.pdb
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.csprojAssemblyReference.cache
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.RazorAssemblyInfo.cache
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.RazorAssemblyInfo.cs
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.AssemblyInfoInputs.cache
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.AssemblyInfo.cs
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.RazorTargetAssemblyInfo.cache
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.dll
+C:\Users\Romano\codenation\csharp-9 - Copia\Source\obj\Debug\netcoreapp2.2\Source.pdb
